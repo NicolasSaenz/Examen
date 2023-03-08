@@ -56,7 +56,7 @@ function App() {
      
     </form>
     {showCard && (
-        <Card car="car" color="{color}" />
+        <Card car={car} color={color} />
       )}
     
   </>
